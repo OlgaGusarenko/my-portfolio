@@ -19,14 +19,11 @@ have their advantages and disadvantages and can better fit different scenarios.
 Deciding one over the other can be surprisingly difficult and depends on the
 application requirements, environment, programming language, and other factors.
 
-Web services overview
-=====================
-
 Before you do a deep dive into the key differences between REST and SOAP, we
 suggest that you get acquanted with each of this technology.
 
 What is SOAP?
-+++++++++++++
+=============
 
 SOAP (Simple Object Access Protocol) is a messaging protocol specification for
 exchanging structured information in the implementation of web services in
@@ -52,7 +49,7 @@ The key SOAP characteristics include:
    Allows for any programming model
 
 What is REST API?
-+++++++++++++++++
+=================
 
 REST (REpresentational State Transfer) is a software architectural style.
 Web services that conform to the REST architectural style, are called RESTful
