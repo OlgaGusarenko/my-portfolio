@@ -8,6 +8,7 @@ sphinx<2.4
 beautifulsoup4
 Jinja2>=2.8 # BSD License (3 clause)
 rst2pdf>=0.97
+rst2pdf.pdfbuilder
 
 lxml
 reno
