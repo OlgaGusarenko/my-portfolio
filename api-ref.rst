@@ -78,8 +78,6 @@ Questions and suggestions
              //Increments the counter for each match
              countArray[i]++;
              }
-           }
-         }
 
 * The error wording could be more user-friendly. For example:
 
