@@ -1,0 +1,8 @@
+#tox
+.tox/
+
+#build directories
+_build/
+
+#static directories
+_static/
