@@ -93,7 +93,7 @@ easily compared, there is a number of key differences that could make you want
 to use one over the other for your application.
 
 .. list-table:: SOAP vs REST: Comparison table
-   :widths: 5 15 15
+   :widths: 15 15 15
    :header-rows: 1
 
    * - Characteristic
