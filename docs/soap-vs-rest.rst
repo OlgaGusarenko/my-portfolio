@@ -93,7 +93,7 @@ easily compared, there is a number of key differences that could make you want
 to use one over the other for your application.
 
 .. list-table:: SOAP vs REST: Comparison table
-   :widths: 15 15 15
+   :widths: 5 15 15
    :header-rows: 1
 
    * - Characteristic
@@ -103,17 +103,17 @@ to use one over the other for your application.
      - Protocol
      - Architectural style
    * - Standardization
-     - Follows a strict standard to enable communication between the client
-       and the server
-     - Follows key architectural constraints restricting the ways that the
-       server can use to process and respond to client requests
+     - | Follows a strict standard to enable communication between the client
+       | and the server
+     - | Follows key architectural constraints restricting the ways that the
+       | server can use to process and respond to client requests
    * - Function
      - Function-driven (transfers structured information)
      - Data-driven (accesses a reaource for data)
    * - Efficiency
      - Uses XML for exchanging information in its message format
-     - Permits different data format, including XML and smaller message
-       format such as JSON or plain text
+     - | Permits different data format, including XML and smaller message
+       | format such as JSON or plain text
    * - Bandwidth
      - Requires more bandwidth and resources
      - Requires less resources and is lightweight
@@ -127,8 +127,8 @@ to use one over the other for your application.
      - Supports SSL and WS-security
      - Supports SSL and HTTPS
    * - Payload handling
-     - Has a strict comminucation contract and requires knowledge of everything
-       before any interaction
+     - | Has a strict comminucation contract and requires knowledge of everything
+       | before any interaction
      - Requires no knowledge of the API
 
 Summing up, the RESTful architecture is a more popular choice among web
