@@ -29,11 +29,19 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['rst2pdf.pdfbuilder','sphinx.ext.autodoc','sphinx.ext.extlinks']
+extensions = [
+    'rst2pdf.pdfbuilder',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.extlinks',
+    'sphinx_rtd_theme',
+    ]
+
+html_theme = "sphinx_rtd_theme"
+pdf_theme = "sphinx_rtd_theme"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
-html_style_path = ['_template/styles.css']
+html_style_path = ['.','_template/']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
