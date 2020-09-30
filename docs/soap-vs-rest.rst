@@ -12,17 +12,16 @@ This section provides a short overview that can help a web developer
 choose when to use REST or SOAP web services.
 
 SOAP and REST are two of the most common API paradigms to consider when
-formulating the API delivery strategy.
-
-SOAP is a protocol, and REST is an architectural style. Both technologies
-have their advantages and disadvantages and can better fit different scenarios.
-Deciding one over the other can be surprisingly difficult and depends on the
-application requirements, environment, programming language, and other factors.
+formulating the API delivery strategy. SOAP is a protocol, and REST is an
+architectural style. Both technologies have their advantages and
+disadvantages and can better fit different scenarios. Deciding one over
+the other can be surprisingly difficult and depends on the application
+requirements, environment, programming language, and other factors.
 
 Before you do a deep dive into the key differences between REST and SOAP, we
 suggest that you get acquanted with each of this technology.
 
-What is SOAP?
+SOAP overview
 =============
 
 SOAP (Simple Object Access Protocol) is a messaging protocol specification for
@@ -48,8 +47,8 @@ The key SOAP characteristics include:
 * Independence
    Allows for any programming model
 
-What is REST API?
-=================
+RESTful system characteristics
+==============================
 
 REST (REpresentational State Transfer) is a software architectural style.
 Web services that conform to the REST architectural style, are called RESTful
@@ -92,6 +91,7 @@ to use one over the other for your application.
 .. list-table:: SOAP vs REST: Comparison table
    :widths: 5 15 15
    :header-rows: 1
+   :stub-columns: 1
 
    * - Characteristic
      - SOAP
@@ -100,17 +100,17 @@ to use one over the other for your application.
      - Protocol
      - Architectural style
    * - Standardization
-     - | Follows a strict standard to enable communication between the client
-       | and the server
-     - | Follows key architectural constraints restricting the ways that the
-       | server can use to process and respond to client requests
+     - Follows a strict standard to enable communication between the client
+       and the server
+     - Follows key architectural constraints restricting the ways that the
+       server can use to process and respond to client requests
    * - Function
      - Function-driven (transfers structured information)
      - Data-driven (accesses a reaource for data)
    * - Efficiency
      - Uses XML for exchanging information in its message format
-     - | Permits different data format, including XML and smaller message
-       | format such as JSON or plain text
+     - Permits different data format, including XML and smaller message
+       format such as JSON or plain text
    * - Bandwidth
      - Requires more bandwidth and resources
      - Requires less resources and is lightweight
@@ -124,8 +124,8 @@ to use one over the other for your application.
      - Supports SSL and WS-security
      - Supports SSL and HTTPS
    * - Payload handling
-     - | Has a strict comminucation contract and requires knowledge of everything
-       | before any interaction
+     - Has a strict comminucation contract and requires knowledge of everything
+       before any interaction
      - Requires no knowledge of the API
 
 Summing up, the RESTful architecture is a more popular choice among web

@@ -34,8 +34,8 @@ About the game
 
 **Tic-Tac-Toe (TTT)**, aka Noughts and Crosses or Xs and Os, is a simple
 two-player game played on a board, which is a grid of squares. The object
-of the game is placing a predefined number of tokens in a horizontal,
-vertical, or diagonal row.
+of the game is marking a number of cells in a horizontal, vertical, or
+diagonal row.
 
 TTT belongs to the following game types:
 
@@ -45,21 +45,21 @@ TTT belongs to the following game types:
 * Positional
    Players alternate in taking possession of the grid squares to form a
    winning configuration of elements, which are the lines of a prefidined
-   number of squares (horizontally, vertically, or diaginally)
+   number of squares (horizontally, vertically, or diagonally)
 
 * Finite
-   The game has a finite number of legal moves. There is no moves sequence
-   leading to an infinite game
+   The game has a finite number of legal moves. There is no a sequence
+   of moves leading to an infinite game
 
 * Zero-sum
    If played optimally by both players, every game ends in a tie
 
 .. admonition:: **Historical reference**
 
-   The TTT game takes roots from a Roman strategy game known as Terni
-   lapilli. The first print reference to a game called `tick-tack-toe`
-   occurred in the last decade of the XIXth century and referred
-   to a game for children played on a slate.
+   The TTT game takes roots from a Roman strategy game known as
+   `Terni lapilli`. The first print reference to a game called
+   `tick-tack-toe` occurred in the last decade of the XIXth century
+   and referred to a game for children played on a slate.
 
 Playing the game
 ================
@@ -92,9 +92,10 @@ squares.
 
 #. Take turns placing your tokens on the game board. The object of the game is
    to get three tokens in a row either vertically, horizontally, or diagonally.
+   And ...enjoy!
 
-   All games can be no longer than nine moves that include five X-moves and
-   four O-moves.
+All games can be no longer than nine moves that include five X-moves and
+four O-moves.
 
 The game is over when one of the following statements is true:
 
@@ -120,9 +121,9 @@ the game increase.
 How to respond to the first move
 ++++++++++++++++++++++++++++++++
 
-Avoid middle side squares when responding to the first move of your opponent.
-If the first player possesses the central square, place your token to one of
-the corner squares of the grid.
+Avoid middle side squares when responding to the first move. If the first
+player possesses the central square, place your token to one of the corner
+squares of the grid.
 
 If your opponent is a novice player and does not mark the center of the
 board, place your token in the center.
